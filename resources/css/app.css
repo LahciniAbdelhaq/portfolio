@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: myFonH;
+    src: url(EyesomeScript.otf);
+}
+
+@font-face {
+    font-family: myFonP;
+    src: url(pFont.otf);
+}
+@font-face {
+    font-family: myBold;
+    src: url(kenyan\ coffee\ stencil\ sb.otf);
+}
+@font-face {
+    font-family: h-bold;
+    src: url(DistorterDemoRegular.ttf);
+}
+@font-face {
+    font-family: pFont;
+    src: url(pFont.otf);
+}
+@font-face {
+    font-family: pText;
+    src: url(Belmon-ovBxA.otf);
+}
+.mh{
+    font-family: myFonH;
+}
+.mp{
+    font-family: myFonP;
+}
+.h-bold{
+    font-family: myBold;
+}
+.h-boold{
+    font-family: h-bold;
+}
+.pf{
+    font-family: pFont;
+}
+
+body{
+    scroll-behavior: auto;
+scroll-behavior: smooth;
+}
+
+
+.drop{
+    filter: drop-shadow(-2px 0px 9px #8C52FF) 
+    ;
+}
+
+.ptext{
+    font-family: pText;
+}
