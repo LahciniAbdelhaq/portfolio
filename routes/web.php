@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/portfolio', function () {
     return view('Portifolio.index');
 });
 
